@@ -9,7 +9,7 @@ Something to consider: If your backend resets the data everytime it's restarted,
 
 Note: You may run into CORS issues when trying to make requests to localhost from codepen.io. You may want to add {mode: 'no-cors'} to your requests or use a proxy if you run into this issue and can't disable the CORS constraint.
 
-# README for local setup
+## README for local setup
 
 * Ruby 2.6.1
 
@@ -17,13 +17,16 @@ Note: You may run into CORS issues when trying to make requests to localhost fro
 
 * PostgresQL 1.2.3
 
-Clone to local machine
+### Clone to local machine
 
-In main directory:
+In app's main directory:
 ```bundle install```
+
 Create the database:
 ```rails db:create```
+
 Migrate the database:
 ```rails db:migrate```
+
 Start the app's server on local machine:
 ```rails s```
