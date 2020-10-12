@@ -26,7 +26,7 @@ class CountriesController < ApplicationController
     private
 
     def country_params
-        params.require(:country).permit(:name, :ein, :address_1, :address_2, :city, :state, :phone_number)
+        params.require(:country).permit(:name, :flag)
     end
 
 end
