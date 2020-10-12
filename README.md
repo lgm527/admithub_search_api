@@ -20,6 +20,10 @@ Migrate the database:
 Start the app's server on local machine:
 ```rails s```
 
+## Frontend
+
+[Repo](https://github.com/lgm527/admithub-search-client)
+
 ## AutoComplete + List Management
 The following coding exercise will have you implement an auto-suggest utility on a search bar that updates the results as you type, and then allow you to add one or many of the search results to a list. Some initial components/layout have been created for you, and will render on the right side of this preview. Only edit the JS / CSS sections for this assignment, do not edit this HTML section directly. You can add props, state, additional methods and components as you see fit.
 
@@ -29,7 +33,7 @@ Note: You can't save changes on this pen alone, so you'll want to select "Use th
 
 If you have any questions regarding this exercise, don't hesitate to reach out. That said, feel free to make assumptions or choices about implementation details that you think are reasonable and aren't explicitly mentioned in the exercise.
 
-## Part 4 (Backend):
+### Part 4 (Backend):
 Pinning items is great, but as you may have noticed, the pinned items reset everytime the user refreshes the page. We'd like to add some persistence.
 
 Create a separately running service (it's okay if it runs on localhost), in the language and frameworks of your choosing, that gets called whenever the user hits the "+" icon that adds something to the "Selected Countries" list. This service should in some way keep track of the countries added to that list. When you hit "x" on a selected country, it should indicate to this service that the country was removed.
