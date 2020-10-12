@@ -1,4 +1,26 @@
-# AutoComplete + List Management
+# README 😎
+
+* Ruby 2.6.1
+
+* Rails 5.2.4
+
+* PostgresQL 1.2.3
+
+## Clone to local machine
+
+In app's main directory:
+```bundle install```
+
+Create the database:
+```rails db:create```
+
+Migrate the database:
+```rails db:migrate```
+
+Start the app's server on local machine:
+```rails s```
+
+## AutoComplete + List Management
 The following coding exercise will have you implement an auto-suggest utility on a search bar that updates the results as you type, and then allow you to add one or many of the search results to a list. Some initial components/layout have been created for you, and will render on the right side of this preview. Only edit the JS / CSS sections for this assignment, do not edit this HTML section directly. You can add props, state, additional methods and components as you see fit.
 
 You're welcome to pull the code out into a separate editor if you prefer (part 4 may even require it to some extent), but the final output should be relatively easily demo-able by us in some fashion.
@@ -17,25 +39,3 @@ When you are initially seeding the list of countries (e.g. on page load), you sh
 Something to consider: If your backend resets the data everytime it's restarted, consider having it work in a way that keeps that data persistent through restarts.
 
 Note: You may run into CORS issues when trying to make requests to localhost from codepen.io. You may want to add {mode: 'no-cors'} to your requests or use a proxy if you run into this issue and can't disable the CORS constraint.
-
-## README for local setup
-
-* Ruby 2.6.1
-
-* Rails 5.2.4
-
-* PostgresQL 1.2.3
-
-### Clone to local machine
-
-In app's main directory:
-```bundle install```
-
-Create the database:
-```rails db:create```
-
-Migrate the database:
-```rails db:migrate```
-
-Start the app's server on local machine:
-```rails s```
